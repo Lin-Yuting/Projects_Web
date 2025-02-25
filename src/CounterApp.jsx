@@ -4,7 +4,7 @@ export const CounterApp = ({value, counter}) => {
 
     CounterApp.PropTypes = {
         value: PropTypes.number.isRequired,
-        counter: PropTypes.string.isRequired
+        counter: PropTypes.number.isRequired
     }
 
     return (

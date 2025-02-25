@@ -9,6 +9,6 @@ import { CounterApp } from './CounterApp.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <CounterApp value = {21} counter = 'Lin' ></CounterApp>
+    <CounterApp value = {21} counter = {21} ></CounterApp>
   </StrictMode>
 )
