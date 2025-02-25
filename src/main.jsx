@@ -5,10 +5,12 @@ import {HelloWorld} from './Primer.jsx'
 import {Second} from './Second.jsx'
 import {Third} from './Third.jsx'
 import { CounterApp } from './CounterApp.jsx'
+import { AppCounter } from './AppCounter.jsx'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <CounterApp value = {21} counter = {21} ></CounterApp>
+    <AppCounter></AppCounter>
   </StrictMode>
 )
